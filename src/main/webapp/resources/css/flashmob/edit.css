@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+    #section_wrap {
+        width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    }
+    .word h3 {
+        text-align: center;
+        color: #333;
+    }
+    .register_book_form {
+        width: 100%;
+    margin: 0 auto;
+    }
+    .register_book_form label {
+        display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+    }
+    .register_book_form input[type="text"],
+    .register_book_form input[type="datetime-local"],
+    .register_book_form input[type="number"],
+    .register_book_form textarea,
+    .register_book_form select,
+    .register_book_form input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .register_book_form input[type="button"],
+    .register_book_form input[type="reset"] {
+        width: 100px;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ff6600;
+        color: white;
+        cursor: pointer;
+    }
+    .register_book_form input[type="reset"] {
+        background-color: #ccc;
+    }
+    .register_book_form input[type="button"]:hover,
+    .register_book_form input[type="reset"]:hover {
+        opacity: 0.8;
+    }
+    #current_image {
+        display: block;
+        margin-top: 10px;
+        max-width: 300px;
+        max-height: 300px;
+    }
+    section {
+        margin-top: 250px; /* 원하는 간격으로 조정 */
+    }

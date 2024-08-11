@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+        section {
+            margin-top:300px;
+        }
+        #section_wrap {
+            width: 1300px;
+            margin:0 auto;
+        }
+        #section_wrap .word {
+            width: 1300px;
+            text-align: center;
+            margin:0 auto;
+        }
+        #section_wrap .book_list {
+            width: 1300px;
+            margin: 0 auto;
+        }
+        #section_wrap .book_list table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 17px;
+        }
+        #section_wrap .book_list table thead tr th {
+            border: 1px solid #e1e1e1;
+            padding: 5px 3px;
+            text-align: center;
+            color: #fff;
+            background-color: #4c9cf7cb;
+        }
+        #section_wrap .book_list table thead tr th:nth-child(1) {
+            width: 20%;
+        }
+        #section_wrap .book_list table thead tr th:nth-child(2) {
+            width: 20%;
+        }
+        #section_wrap .book_list table thead tr th:nth-child(3) {
+            width: 10%;
+        }
+        #section_wrap .book_list table thead tr th:nth-child(4) {
+            width: 15%;
+        }
+        #section_wrap .book_list table thead tr th:nth-child(5) {
+            width: 15%;
+        }
+        #section_wrap .book_list table thead tr th:nth-child(5) {
+            width: 10%;
+        }
+        #section_wrap .book_list table thead tr th:nth-child(5) {
+            width: 10%;
+        }
+        #section_wrap .book_list table tbody tr:nth-child(2n-1) {
+            background-color: #ffffff;
+        }
+        #section_wrap .book_list table tbody tr td {
+            border: 1px solid #e1e1e1;
+            padding: 5px 3px;
+            text-align: center;
+        }
+        .table_text {
+            font-weight: 100;
+            letter-spacing: 3px;
+        }
+        /* 답변 숨김 */
+        .answer {
+            display: none;
+        }
+        .question {
+        }
+        .answer.visible {
+            display: table-row;
+        }
+        .toggle_icon {
+        margin-left: 10px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .rotate {
+        transform: rotate(180deg);
+    }

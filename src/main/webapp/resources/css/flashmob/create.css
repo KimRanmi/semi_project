@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+#section_wrap {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Heading */
+.word h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form styling */
+.register_book_form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.register_book_form label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.register_book_form input[type="text"],
+.register_book_form input[type="datetime-local"],
+.register_book_form input[type="file"],
+.register_book_form select,
+.register_book_form textarea {
+    width: calc(100% - 140px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.register_book_form textarea {
+    height: 150px;
+}
+
+.register_book_form input[type="checkbox"] {
+    width: auto;
+    margin-left: 120px;
+}
+
+.register_book_form input[type="button"],
+.register_book_form input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register_book_form input[type="button"] {
+    background-color: #ff5c5c;
+    color: white;
+    margin-right: 10px;
+}
+
+.register_book_form input[type="reset"] {
+    background-color: #f7f7f7;
+    color: #555;
+}
+
+.register_book_form input[type="button"]:hover,
+.register_book_form input[type="reset"]:hover {
+    opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #section_wrap {
+        width: 95%;
+    }
+
+    .register_book_form label,
+    .register_book_form input[type="text"],
+    .register_book_form input[type="datetime-local"],
+    .register_book_form input[type="file"],
+    .register_book_form select,
+    .register_book_form textarea {
+        width: 100%;
+    }
+
+    .register_book_form input[type="checkbox"] {
+        margin-left: 0;
+    }
+}

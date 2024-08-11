@@ -1,0 +1,83 @@
+/* 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 헤더 스타일 */
+#section_wrap {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#word h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* 필터 버튼 스타일 */
+#section_wrap > div > a {
+    margin-right: 15px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#section_wrap > div > a:hover {
+    text-decoration: underline;
+}
+
+/* 테이블 스타일 */
+.flashmob_list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.flashmob_list th,
+.flashmob_list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.flashmob_list th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.flashmob_list td a {
+    color: #007bff;
+}
+
+.flashmob_list td a:hover {
+    text-decoration: underline;
+}
+
+
+
+#pagination a:hover {
+    background-color: #ddd;
+}
+
+/* 타이머 스타일 */
+#timer {
+    color: #ff5733;
+    font-weight: bold;
+}

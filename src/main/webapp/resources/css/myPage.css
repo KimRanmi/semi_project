@@ -1,0 +1,79 @@
+body {
+    font-family: 'Jua', sans-serif;
+    background-color: #f7f7f7;
+}
+a{
+	justify-content: center;	
+}
+#section {
+    max-width: 1200px;
+    margin : 500px 200px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    justify-content: center;
+}
+
+#sale_share, #prod_category {
+    gap: 15px;
+    font-family: 'Jua', sans-serif;
+}
+input {
+	font-family : 'Jua', sans-serif;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item {
+    width: calc(20% - 20px);
+    text-align: center;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.item p{
+	margin-bottom : -10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+a:hover {
+    color: #ff5722;
+}
+.list {
+    position: relative;
+    z-index: 1; 
+}
+
+
+.center {
+    text-align: center;
+    margin: 20px 0;
+}

@@ -1,0 +1,133 @@
+body {
+    font-family: 'Jua', sans-serif;
+    background-color: #f7f7f7;
+}
+a{
+	justify-content: center;	
+}
+select {
+	margin : 200px;
+}
+#section {
+    max-width: 1200px;
+    margin: 200px 20px 300px 200px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    justify-content: center;
+}
+
+#sale_share, #prod_category {
+    gap: 15px;
+    font-family: 'Jua', sans-serif;
+}
+input {
+	font-family : 'Jua', sans-serif;
+}
+
+#sale_share .circle{
+	margin-top : 100px;
+    border : 1px solid black;
+    background-color : orange;
+    border-radius : 50%;
+    justify-content: center;
+}
+#sale_share{
+	margin-top :100px;
+	margin-left : 500px;
+}
+#section {
+	margin-top : 200px;
+}
+#prod_category .cate {
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item {
+    width: calc(20% - 20px);
+    text-align: center;
+}
+
+/* .item img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+} */
+.item p{
+	margin-bottom : -10px;
+}
+.circle, .cate {
+    background-color: #eeeeee;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.circle:hover, .cate:hover {
+    background-color: #dcdcdc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:-200px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#arraySelect {
+	margin-top:10px;
+	padding : 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    width : 150px;
+    
+}
+
+a:hover {
+    color: #ff5722;
+}
+.list {
+    position: relative; /* 부모 요소에 position을 지정해야 z-index가 동작합니다. */
+    z-index: 1; /* 테이블의 층위를 설정합니다. */
+}
+
+#sale_share, #arrayForm {
+    position: relative; /* 필요에 따라 position 속성을 설정합니다. */
+    z-index: 2; /* 셀렉트 박스와 버튼의 층위를 설정합니다. */
+}
+.center {
+    text-align: center;
+    margin: 20px 0;
+}

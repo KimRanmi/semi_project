@@ -1,0 +1,114 @@
+/* 리셋 및 폰트 임포트 */
+@charset "UTF-8";
+body {
+    font-family: 'Jua', sans-serif; /* 전체 body에 Jua 폰트 적용 */
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* 섹션 스타일링 */
+section {
+	margin : 300px auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* 연한 배경색 추가 */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 1000px; /* 최대 너비 설정 */
+}
+
+/* 기타 요소들의 일관된 스타일링 */
+#sale_icon {
+    width: 100px;
+    height: 100px;
+}
+
+.file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form_id input[type='text'] {
+    margin-top: 20px; /* 500px에서 줄임 */
+    border-radius: 50px;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+textarea-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+input[type='text'], input[type='number'] {
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+    font-size: 15px;
+    width: 100%; /* 최대 너비로 설정 */
+    max-width: 300px; /* 최대 너비 제한 */
+}
+#prod_id{
+	margin-top : 10px;
+	 padding: 3px;
+	 text-align : center;
+}
+#place{
+	padding : 3px;
+	width : 200px;
+	text-align : center;
+}
+#price_id{
+	padding : 3px;
+	width : 100px;
+	text-align : center;
+}
+
+select {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+    padding : 3px;
+}
+
+#submit_id {
+    float: right;
+}
+
+#profile_img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#heart_id {
+    height: 20px;
+}
+
+#chat_id {
+    background-color: orange;
+    width: 70px;
+    border: none;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom:2px;
+}
