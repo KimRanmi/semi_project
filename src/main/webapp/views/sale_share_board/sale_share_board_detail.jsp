@@ -125,12 +125,12 @@
 	    function change(postNo, event) {
 	        event.preventDefault();
 	        console.log(postNo);
-	
+
 	        var xhr = new XMLHttpRequest();
 	        xhr.open("GET", "<%= request.getContextPath() %>/sale_share_board/like?id=" + postNo);
 	        xhr.onload = function() {
 	            if (xhr.status >= 200 && xhr.status < 400) {
-	                var heart = document.getElementById('heart'); //하트 상태 변화
+	                var heart = document.getElementById('heart'); // 하트 상태 변화
 	                if (heart.classList.contains('red')) {
 	                    heart.classList.remove('red');
 	                    heart.classList.add('dark');
@@ -138,9 +138,9 @@
 	                    heart.classList.remove('dark');
 	                    heart.classList.add('red');
 	                }
-	        	};
-	        	xhr.send();
-	    	}
+	            }
+	        };
+	        xhr.send(); // send()를 onload 블록 밖으로 이동
 	    }
 	</script>
 	<script src="js/jquery-1.11.0.min.js"></script>
